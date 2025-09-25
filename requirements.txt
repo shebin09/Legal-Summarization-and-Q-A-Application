@@ -1,0 +1,17 @@
+torch>=2.0.0
+transformers==4.36.2
+sentence-transformers>=2.2.2
+datasets>=2.16.0
+evaluate>=0.4.0
+accelerate>=0.21.0
+
+faiss-cpu>=1.7.4     # if using GPU, switch to faiss-gpu
+numpy>=1.23.0
+pandas>=1.5.3
+
+PyPDF2>=3.0.0
+pdf2image>=1.16.3
+pytesseract>=0.3.10
+Pillow>=9.5.0
+
+gradio>=3.50.0
